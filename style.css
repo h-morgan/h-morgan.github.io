@@ -52,7 +52,6 @@ h1 {
 
 #subtitle {
     text-align: center;
-    margin-top: -20px;
 }
 
 /* Background color of all Sections */
@@ -76,6 +75,11 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     text-align: justify;
+}
+
+figcaption {
+    font-size: .7rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Blue sections */
@@ -125,7 +129,7 @@ figcaption {
  .links:hover {
     background-color: rgba(19, 56, 88, 0.904);
     padding: 2px 5px 2px 5px;
-    border-radius: 2rem;
+    border-radius: 5px;
 } 
 
 /* Contact me */
@@ -136,16 +140,7 @@ figcaption {
     color: white;
 }
 
-#contacts ul li {
-    margin: 10px;
-}
 
-#contact .links:hover {
-    background-color: rgb(235, 169, 126);
-    border-radius: 5px;
-    padding: 2px 5px 2px 5px;
-
-}
 
 
 /* SMARTPHONE SIZING */
@@ -185,4 +180,5 @@ figcaption {
         flex-direction: column;
     }
 }
+
 
