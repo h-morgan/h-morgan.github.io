@@ -51,8 +51,8 @@ h1 {
 }
 
 
-/* About me */
-#about, #contact {
+/* Blue sections */
+.blue {
     background-color: rgba(19, 56, 88, 0.9);
     height: 100%;
     color: white;
@@ -65,7 +65,7 @@ h2 {
     font-size: 30px;
 } 
 
-#about p, #projects p {
+.blue p, .pink p {
     font-family: Asap;
     font-size: 20px;
     text-align: justify;
@@ -79,7 +79,7 @@ h2 {
 /* Projects */
 /* Inherit h2 properties from previous */
 #projects {
-    height: 100%;
+    /* margin-top: -30px; */
 }
 
 #projects ul li {
@@ -90,16 +90,31 @@ h2 {
 .links {
     text-decoration: none;
     color: black;
-}
+} 
 
-.links:hover {
-    color: white;
-}
+ .links:hover {
+    background-color: rgba(19, 56, 88, 0.904);
+    padding: 2px 5px 2px 5px;
+    border-radius: 2rem;
+} 
 
 /* Contact me */
 #contact a {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding-left: 50px;
+    color: white;
+}
+
+#contacts ul li {
+    margin: 10px;
+}
+
+#contact .links:hover {
+    background-color: rgb(235, 169, 126);
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+
 }
 
 
