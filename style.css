@@ -99,6 +99,7 @@ figcaption {
 .about-img figure {
     margin: auto;
     width: 200px;
+    padding: 5px;
 }
 
 .about-img figure img {
@@ -215,7 +216,7 @@ button:hover {
 
 /* SMARTPHONE SIZING */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 660px) {
 
     /* About me image styling for smaller screen */
     .about-img {
