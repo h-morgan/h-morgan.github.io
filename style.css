@@ -50,29 +50,39 @@ h1 {
     font-size: 50px;
 }
 
+/* Background color of all Sections */
+.blue, .pink {
+    max-width: 100%;
+}
+
+/* Content in all sections */
+.content {
+    max-width: 850px;
+    margin: auto;
+    padding-bottom: 30px;
+}
 
 /* Blue sections */
 .blue {
     background-color: rgba(19, 56, 88, 0.9);
-    height: 100%;
     color: white;
 }
 
-h2 {
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 30px;
-} 
+/* About me */
+.about-img {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
 
-.blue p, .pink p {
-    font-family: Asap;
-    font-size: 20px;
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+.about-img figure {
+    margin: auto;
+    width: 200px;
+}
+
+.about-img figure img {
+    width: 200px;
+    border-radius: 50%;
 }
 
 /* Projects */
