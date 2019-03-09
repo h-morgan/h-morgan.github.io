@@ -56,7 +56,6 @@ h1 {
     background-color: rgba(19, 56, 88, 0.9);
     height: 100%;
     color: white;
-    padding-bottom: 30px;
 }
 
 h2 {
@@ -77,11 +76,6 @@ h2 {
 }
 
 /* Projects */
-/* Inherit h2 properties from previous */
-#projects {
-    /* margin-top: -30px; */
-}
-
 #projects ul li {
     list-style: none;
     margin: 10px;
