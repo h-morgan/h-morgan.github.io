@@ -79,7 +79,7 @@ p {
 
 figcaption {
     font-size: .7rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Asap;
 }
 
 /* Blue sections */
@@ -133,13 +133,21 @@ figcaption {
 } 
 
 /* Contact me */
-#contact a {
+.icons {
     display: flex;
-    flex-direction: column;
-    padding-left: 50px;
+    justify-content: space-around;;
+    margin: auto;
+    width: 200px;
+}
+
+.icons a {
+    transform: scale(2);
     color: white;
 }
 
+.icons a:hover {
+    color: #6e90db;
+}
 
 
 
