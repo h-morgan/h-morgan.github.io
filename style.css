@@ -110,10 +110,12 @@ h2 {
         background-color: rgb(235, 169, 126);
     }
     
-    nav ul li {
-        display: block;
-    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+
     }
+
 }
 
 
