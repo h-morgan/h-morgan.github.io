@@ -44,6 +44,8 @@ nav ul li a:hover {
     text-align: center;
     padding-top: 30vh;
     height: 70vh;
+    background-image: url("img/bg-crete.jpg");
+    background-size: 100% 100%;
 }
 
 h1 {
