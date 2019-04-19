@@ -3,8 +3,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: rgb(235, 169, 126);
+}
+
+body {
+    background: rgba(19, 56, 88, 0.9);
     font-family: 'Patua One';
+    color: white;
 }
 
 /* :target {
@@ -56,11 +60,6 @@ h1 {
     text-align: center;
 }
 
-/* Background color of all Sections */
-.blue, .pink {
-    max-width: 100%;
-}
-
 /* Content in all sections */
 .content {
     max-width: 850px;
@@ -87,8 +86,7 @@ figcaption {
 
 /* Blue sections */
 .blue {
-    background-color: rgba(19, 56, 88, 0.9);
-    color: white;
+    
 }
 
 /* About me */
