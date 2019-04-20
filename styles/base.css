@@ -24,7 +24,8 @@ nav {
     position: fixed;
     width: 100%;
     background-color: rgb(235, 169, 126);
-}
+    box-shadow: 0px 3px 10px rgb(27, 27, 27); 
+} 
 
 nav ul li {
     display: inline-block;
@@ -46,9 +47,9 @@ nav ul li a:hover {
 /* Welcome section */
 #welcome-section {
     text-align: center;
-    padding-top: 30vh;
-    height: 70vh;
-    background-image: url("img/bg-crete.jpg");
+    padding-top: 10vh;
+    height: 90vh;
+    background-image: url("../img/bg-crete.jpg");
     background-size: 100% 100%;
 }
 
