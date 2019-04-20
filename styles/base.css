@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 
 /* Welcome section */
-#welcome-section {
+.welcome {
     text-align: center;
     padding-top: 10vh;
     height: 90vh;
@@ -221,7 +221,7 @@ button:hover {
     /* About me image styling for smaller screen */
     .about-img {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 20px;
     }
     
@@ -231,24 +231,58 @@ button:hover {
     }
     
     .about-img figure img {
-        width: 200px;
+        width: 100%;
         border-radius: 50%;
     }
 
 }
 
-@media screen and (max-width: 475px) {
+@media only screen and (max-width: 475px) {
     /* Navbar styling for smartphone screen */
     nav {
         text-align: center;
-        position: fixed;
         width: 100%;
-        background-color: rgb(235, 169, 126);
+        background-color: rgb(180, 129, 94);
     }
     
     nav ul {
         display: flex;
         flex-direction: column;
+    }
+
+    /* Home section styling for smartphone */
+    .welcome {
+        text-align: center;
+        padding-top: 20vh;
+        height: 90vh;
+        background-image: none;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+    /* ALL sections styling for smartphone */
+    .content {
+        max-width: 850px;
+        margin: auto;
+        padding: 130px 30px 30px 30px;
+        display: block;
+    }
+    h2 {
+        text-align: center;
+        font-size: 2.3rem;
+    }
+    
+    p {
+        font-family: 'Hind', sans-serif;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    /* Contact form styling for smartphone */
+    .right {
+        align-self: flex-end;
     }
 }
 
