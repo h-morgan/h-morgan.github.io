@@ -277,6 +277,10 @@ button:hover {
         align-items: center;
     }
 
+    .larger-icon {
+        width: 5.5rem;
+    }
+
 
     /* ALL sections styling for smartphone */
     .content {
@@ -297,7 +301,35 @@ button:hover {
     }
 
     /* TODO: Contact form styling for smartphone */
-  
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-inputs {
+        display: block;
+        justify-content: flex-end;
+        width: 600px;
+        margin: auto;
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    #name-row, #email-row {
+        padding: 0 0 20px 0;
+    }
+    
+    .right {
+        display: flex;
+        justify-content: start;
+    }
+    
+    label {
+        padding-right: 7px;
+    }
 }
 
 
