@@ -248,6 +248,7 @@ button:hover {
     nav ul {
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
 
     /* Home section styling for smartphone */
@@ -280,10 +281,8 @@ button:hover {
         text-align: left;
     }
 
-    /* Contact form styling for smartphone */
-    .right {
-        align-self: flex-end;
-    }
+    /* TODO: Contact form styling for smartphone */
+  
 }
 
 
