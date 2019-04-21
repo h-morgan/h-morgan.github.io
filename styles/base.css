@@ -63,6 +63,10 @@ h1 {
     font-family: 'Hind';
 }
 
+.mobile-welcome-img {
+    display: none;
+}
+
 /* Content in all sections */
 .content {
     max-width: 850px;
@@ -235,6 +239,10 @@ button:hover {
         border-radius: 50%;
     }
 
+    figcaption {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 475px) {
@@ -262,6 +270,25 @@ button:hover {
     h1 {
         font-size: 3rem;
     }
+
+    .mobile-welcome-img {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+    
+    .mobile-welcome-img figure {
+        margin: auto;
+        width: auto;
+        padding: 5px;
+    }
+    
+    .mobile-welcome-img figure img {
+        width: 100%;
+        border-radius: 50%;    
+        box-shadow: 2px 2px 3px black;
+    }
+
 
     /* ALL sections styling for smartphone */
     .content {
