@@ -203,7 +203,7 @@ label {
 
 .sub-btn {
     margin: auto;
-    padding: 20px 0 20px 0;
+    padding: 50px 0px 20px 0px;
 }
 
 button {
@@ -284,7 +284,7 @@ button:hover {
 
     /* ALL sections styling for smartphone */
     .content {
-        max-width: 850px;
+        max-width: 400px;
         margin: auto;
         padding: 130px 30px 30px 30px;
         display: block;
@@ -304,11 +304,13 @@ button:hover {
     .contact-form {
         display: flex;
         flex-direction: column;
+        margin-right: 40px;
     }
     .form-inputs {
-        display: block;
-        justify-content: flex-end;
-        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 90%;
         margin: auto;
     }
     
@@ -329,6 +331,10 @@ button:hover {
     
     label {
         padding-right: 7px;
+    }
+
+    button {
+        background-color: rgb(196, 184, 184);
     }
 }
 
