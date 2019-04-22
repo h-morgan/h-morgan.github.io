@@ -304,7 +304,6 @@ button:hover {
     .contact-form {
         display: flex;
         flex-direction: column;
-        margin-right: 40px;
     }
     .form-inputs {
         display: flex;
