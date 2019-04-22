@@ -40,6 +40,10 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+.active {
+    border-bottom: 1px solid white;
+}
+
 /* Welcome section */
 .welcome {
     text-align: center;
