@@ -64,7 +64,7 @@ h1 {
     font-family: 'Hind';
 }
 
-.welcome-icons {
+.welcome-icons, .sub-img {
     display: none;
 }
 
@@ -266,10 +266,17 @@ button:hover {
         padding-top: 20vh;
         height: 90vh;
         background-image: none;
+        width: 100%;
     }
     
     h1 {
-        font-size: 3rem;
+        font-size: 3.3rem;
+    }
+
+    #subtitle {
+        font-family: 'Patua One';
+        font-size: 2rem;
+        line-height: 70px;
     }
 
     .welcome-icons {
@@ -278,8 +285,16 @@ button:hover {
         align-items: center;
     }
 
-    .larger-icon {
-        width: 5.5rem;
+    .sub-img {
+        display: flex;
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .sub-img img {
+        width: 100%;
+        height: auto;
+        margin: auto;
     }
 
 
