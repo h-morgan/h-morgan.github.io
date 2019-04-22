@@ -12,12 +12,6 @@ body {
     color: white;
 }
 
-/* :target {
-    display: block;
-    position: relative;
-    top: -40px; 
-}  */
-
 
 /* Navbar styling */
 nav {
@@ -52,20 +46,30 @@ nav ul li a:hover {
     padding-top: 10vh;
     height: 90vh;
     background-image: url("../img/bg-crete.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 h1 {
     font-size: 5rem;
+    text-shadow: 2px 2px 5px black;
 }
 
 #subtitle {
     text-align: center;
-    font-family: 'Hind';
+    font-family: 'Patua One';
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px black;
 }
 
 .welcome-icons, .sub-img {
     display: none;
+}
+
+.welcome-blurb {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
 }
 
 /* Content in all sections */
@@ -276,25 +280,32 @@ button:hover {
     #subtitle {
         font-family: 'Patua One';
         font-size: 2rem;
-        line-height: 70px;
+        line-height: 20px;
     }
 
     .welcome-icons {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        padding-bottom: 15px;
     }
 
     .sub-img {
         display: flex;
         margin: auto;
         max-width: 300px;
+        padding: 15px 0 15px 0;
     }
 
     .sub-img img {
         width: 100%;
         height: auto;
         margin: auto;
+    }
+
+    .welcome-blurb {
+        padding: 0 20px 0 20px;
+        text-shadow: 2px 2px 5px black;
     }
 
 
@@ -316,7 +327,7 @@ button:hover {
         text-align: left;
     }
 
-    /* TODO: Contact form styling for smartphone */
+    /* Contact form styling for smartphone */
     .contact-form {
         display: flex;
         flex-direction: column;
