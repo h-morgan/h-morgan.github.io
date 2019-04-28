@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    background: rgba(19, 56, 88, 0.9);
+    background: rgba(19, 56, 88, 0.85);
     font-family: 'Patua One';
     color: white;
 }
@@ -267,7 +267,7 @@ button:hover {
         width: 100%;
         background-color: rgba(235, 169, 126, 0.9);
     }
-    
+
     nav ul {
         display: flex;
         flex-direction: column;
