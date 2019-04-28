@@ -75,10 +75,12 @@ h1 {
 }
 
 .welcome-blurb {
+    font-family: 'Patua One';
     max-width: 400px;
     margin: auto;
     text-align: center;
-    text-shadow: 5px 5px 10px black;
+    text-shadow: 8px 8px 13px black;
+    word-spacing: 0.2rem;
 }
 
 /* Content in all sections */
@@ -314,8 +316,10 @@ button:hover {
     }
 
     .welcome-blurb {
+        font-family: Hind;
         padding: 0 20px 0 20px;
         text-shadow: 2px 2px 5px black;
+        word-spacing: 0.1rem;
     }
 
 
