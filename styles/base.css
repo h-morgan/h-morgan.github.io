@@ -3,11 +3,6 @@
 
 /* =====================================================================
    RESETS */
-   
-html, body {
-    margin: 0;
-    padding: 0;
-}
 
 ol, ul {
     list-style: none;
@@ -21,10 +16,13 @@ ol, ul {
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
     color: rgba(19, 56, 88, 0.85);
+    background-color: rgba(158, 155, 155, 0.7);
+    position: relative;
 }
 
 h1 {
@@ -49,6 +47,9 @@ figcaption {
     font-family: Asap;
 }
 
+section {
+    position: relative;
+}
 
 
 /* =====================================================================
@@ -92,7 +93,7 @@ figcaption {
     height: 200px;
     padding: 20px 7px 10px 7px;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px grey;
+    box-shadow: 2px 2px 10px grey;
 }
 
 .card:hover {
@@ -106,42 +107,6 @@ figcaption {
 
 .w-icons {
     font-size: 300%;
-}
-
-
-
-
-
-
-/* =====================================================================
-    HEADER & NAVBAR */
-
-.nav-wrapper {
-    max-width: 600px;
-    margin: auto;
-}
-
-.nav-link-active {
-    border-bottom: 2px solid white; 
-    border-radius: 5px;
-}
-
-.navigation-links {
-    width: 100%;
-    background-color: rgba(19, 56, 88, 0.85);
-    z-index: 1;
-    position: fixed;
-}
-
-.nav-link {
-    color: white;
-}
-
-.nav-link:hover {
-    background-color: rgb(192, 189, 187);
-    color: rgba(19, 56, 88, 0.85);
-    border-radius: 7px;
-    border: 1px solid salmon;
 }
 
 .top {
@@ -182,19 +147,57 @@ figcaption {
 
 
 
+
+
+/* =====================================================================
+    HEADER & NAVBAR */
+
+.nav-wrapper {
+    max-width: 600px;
+    margin: auto;
+}
+
+.nav-link-active {
+    border-bottom: 2px solid white; 
+    border-radius: 5px;
+}
+
+.navigation-links {
+    width: 100%;
+    background-color: rgba(19, 56, 88, 0.85);
+    z-index: 1;
+    position: fixed;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: rgba(228, 135, 135, 0.5);
+    color: white; /* rgba(19, 56, 88, 0.85); */
+    border-radius: 7px;
+}
+
+
+
+
+
+
 /* =====================================================================
     FOOTER */
 
 footer {
     background-color: rgba(19, 56, 88, 0.85);
-    height: 30px;
+    height: 20px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
     color: white;
-    vertical-align: middle;
-    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+
 }
+
 
 
 
