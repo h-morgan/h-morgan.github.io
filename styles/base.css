@@ -158,8 +158,7 @@ figcaption {
 }
 
 .nav-link-active {
-    border-bottom: 2px solid white; 
-    border-radius: 5px;
+    border-top: 2px solid white; 
 }
 
 .navigation-links {
