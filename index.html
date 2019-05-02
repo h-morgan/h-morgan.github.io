@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="referrer" content="origin">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/base.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="mountain.png" type="image/png"> 
@@ -14,26 +15,25 @@
 <body>
 
 <!-- Navigation bar -->
-<nav id="navbar">
-    <ul>
-        <li><a class="active" href="#welcome-section">Home</a></li>
-        <li><a href="pages/about.html">ABOUT ME</a></li>
-        <li><a href="pages/projects.html">PROJECTS</a></li>
-        <li><a href="pages/contact.html">CONTACT ME</a></li>
-    </ul>
+<header class="navigation-links">
+<nav class="nav-wrapper navbar container-fluid">
+    <a class="nav-link nav-link-active" href="#welcome-section">HOME</a>
+    <a class="nav-link" href="pages/about.html">ABOUT ME</a>
+    <a class="nav-link"href="pages/projects.html">PROJECTS</a>
+    <a class="nav-link "href="pages/contact.html">CONTACT ME</a>
 </nav>
+</header>
 
 <!-- Intro section -->
-<section id="welcome-section" class="welcome">
+<section class="welcome container-fluid">
     <h1>Hi, I'm Haley.</h1>
     <p id="subtitle">I build websites.</p>
-    <br>
-    <div class="welcome-icons">
-            <div><img src="icons/collaboration.png" alt="collaboration"></div>
-            <div><img class="larger-icon" src="icons/software-dev.png" alt="developer"></div>
-            <div><img src="icons/schedule.png" alt="schedule"></div>
+    <div class="nav-wrapper welcome-icons">
+        <div><img src="icons/laptop.png" alt="collaboration"></div>
+        <div><img class="larger-icon" src="icons/software-dev.png" alt="developer"></div>
+        <div><img src="icons/database.png" alt="schedule"></div>
     </div>
-    <br>
+
     <p class="welcome-blurb">Thanks for visiting! I'm a Boston-based freelance web developer focused on building websites optimized for every device. Feel free to get in touch with me if you'd like me to help you with your website!</p>
     <br>
     <div class="sub-img">
