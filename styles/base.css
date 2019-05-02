@@ -31,6 +31,7 @@ h1 {
     text-shadow: 2px 2px 5px grey;
     font-size: 4rem;
     font-family: 'Patua One';
+    text-align: center;
 }
 
 h2 {
@@ -54,6 +55,8 @@ figcaption {
 .content-wrapper {
     max-width: 850px;
     margin: auto;
+    padding-left: 20px; 
+    padding-right: 20px;
 }
 
 .welcome {
@@ -116,7 +119,8 @@ figcaption {
 }
 
 .nav-link-active {
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white; 
+    border-radius: 5px;
 }
 
 .navigation-links {
@@ -137,29 +141,13 @@ figcaption {
     border: 1px solid salmon;
 }
 
-
-
-
-/* =====================================================================
-    FOOTER */
-
-
-
-
-
-
-
-/* Welcome section */
-
-
-
-
-
-
-
-
+.top {
+    padding-top: 75px;
+}
 
 /* About me */
+
+
 .about-img {
     display: flex;
     flex-direction: row;
@@ -187,6 +175,27 @@ figcaption {
     justify-content: space-evenly;
     align-items: center;
 }
+
+
+
+
+/* =====================================================================
+    FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Projects */
 #projects ul li {
