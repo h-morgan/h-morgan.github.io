@@ -6,39 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="referrer" content="origin">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/base.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="icon" href="mountain.png" type="image/png"> 
     <link rel="shortcut icon" href="mountain.png" type="image/png"> 
     <title>Haley Morgan</title>
 </head>
-<body>
+<body class="welcome-full">
 
 <!-- Navigation bar -->
 <header class="navigation-links">
 <nav class="nav-wrapper navbar container-fluid">
     <a class="nav-link nav-link-active" href="#welcome-section">HOME</a>
     <a class="nav-link" href="pages/about.html">ABOUT ME</a>
-    <a class="nav-link"href="pages/projects.html">PROJECTS</a>
-    <a class="nav-link "href="pages/contact.html">CONTACT ME</a>
+    <a class="nav-link" href="pages/projects.html">PROJECTS</a>
+    <a class="nav-link" href="pages/contact.html">CONTACT ME</a>
 </nav>
 </header>
 
-<!-- Intro section -->
-<section class="welcome container-fluid">
+<!-- Intro text section -->
+<section class="welcome container-fluid content-wrapper">
     <h1>Hi, I'm Haley.</h1>
     <p id="subtitle">I build websites.</p>
-    <div class="nav-wrapper welcome-icons">
-        <div><img src="icons/laptop.png" alt="collaboration"></div>
-        <div><img class="larger-icon" src="icons/software-dev.png" alt="developer"></div>
-        <div><img src="icons/database.png" alt="schedule"></div>
+
+    <!-- 3 cards  -->
+    <div class="row">
+    <div class="outer-card col-md-4 col-sm-4">
+        <div class="card container-fluid border border-primary">
+            <h4 class="card-title">Website Planning</h4>
+            <div lcass="w-icons"><i class="w-icons fas fa-sitemap"></i></div>
+        </div>
     </div>
 
-    <p class="welcome-blurb">Thanks for visiting! I'm a Boston-based freelance web developer focused on building websites optimized for every device. Feel free to get in touch with me if you'd like me to help you with your website!</p>
-    <br>
-    <div class="sub-img">
-        <img src="img/responsive-web.png">
+    <div class="outer-card col-md-4 col-sm-4 col-12">
+        <div class="card container-fluid border border-primary">
+            <h4 class="card-title">Front-End Development</h4>
+            <div lcass="w-icons"><i class="w-icons fas fa-code"></i></div>
+        </div>
     </div>
+
+    <div class="outer-card col-md-4 col-sm-4 col-xs-12">
+        <div class="card container-fluid border border-primary">
+            <h4 class="card-title">Continued Maintenance</h4>
+            <div lcass="w-icons"><i class="w-icons fas fa-wrench"></i></div>
+    </div>
+    </div>
+
 </section>
 
 </body>
