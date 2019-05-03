@@ -33,14 +33,22 @@ h1 {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-size: 2rem;
+    font-family: 'Patua One';
+}
+
+h3, h4 {
+    text-align: center;
+
 }
 
 p {
-    font-family: 'Hind', sans-serif;
-    font-size: 1.2rem;
     text-align: left;
+}
+
+p {
+    font-size: 1.3rem;
 }
 
 figcaption {
@@ -74,6 +82,7 @@ section {
 .welcome-full {
     background-image: url("../img/wooden-grey.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 #subtitle {
@@ -137,13 +146,76 @@ section {
 
 figcaption {
     text-align: center;
+    margin-top: 10px;
 }
 
 .about-icons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 20px
 }
+
+.abt-section {
+    padding: 10px 10px 0px 10px;
+}
+
+.p-text{
+    padding-top: 0px;
+    text-align: left;
+}
+
+.a-icons {
+    padding-top: 40px;
+    max-width: 600px;
+    padding-bottom: 20px;
+
+}
+
+.a-icons div i {
+    text-align: center;
+    margin: auto;
+}
+
+.html-icon {
+    color: #E45132;
+}
+
+.css-icon {
+    color:  #2474B8;
+}
+
+.js-icon {
+    color: #F5DE30;
+}
+
+.bs-icon {
+    color: #614788;
+}
+
+.git-icon {
+    color: #EA4F33;
+}
+
+.p-text {
+    margin: auto;
+    max-width: 400px;
+}
+
+.personal {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.subtitle-text {
+    border-top: 2px solid rgba(19, 56, 88, 0.85);
+    max-width: 600px;
+    margin: auto;
+
+}
+
+
+
 
 
 
@@ -165,6 +237,7 @@ figcaption {
 .navigation-links {
     width: 100%;
     background-color: rgba(19, 56, 88, 0.85);
+    box-shadow: 0 2px 5px black;
     z-index: 1;
     position: fixed;
 }
@@ -193,6 +266,7 @@ footer {
     width: 100%;
     color: white;
     position: absolute;
+    margin-bottom: -50px;
     bottom: 0;
     font-size: 12px;
 
@@ -212,22 +286,6 @@ footer {
 
 
 
-/* Projects */
-#projects ul li {
-    list-style: none;
-    margin: 10px;
-}
-
-.links {
-    text-decoration: none;
-    color: black;
-} 
-
- .links:hover {
-    background-color: rgba(19, 56, 88, 0.904);
-    padding: 2px 5px 2px 5px;
-    border-radius: 5px;
-} 
 
 /* Contact me */
 .icons {
@@ -338,27 +396,8 @@ button:hover {
 }
 
 @media only screen and (max-width: 475px) {
-    /* Navbar styling for smartphone screen */
-     /* nav {
-        text-align: center;
-        width: 100%; 
-        background-color: rgba(235, 169, 126, 0.9);
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-    }  */
 
     /* Home section styling for smartphone */
-    .welcome {
-        text-align: center;
-        padding-top: 20vh;
-        height: 90vh;
-        background-image: none;
-        width: 100%;
-    }
     
     h1 {
         font-size: 3.3rem;
@@ -370,33 +409,6 @@ button:hover {
         line-height: 20px;
     }
 
-    .welcome-icons {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-bottom: 15px;
-    }
-
-    .sub-img {
-        display: flex;
-        margin: auto;
-        max-width: 300px;
-        padding: 15px 0 15px 0;
-    }
-
-    .sub-img img {
-        width: 100%;
-        height: auto;
-        margin: auto;
-    }
-
-    .welcome-blurb {
-        font-family: Hind;
-        padding: 0 20px 0 20px;
-        text-shadow: 2px 2px 5px black;
-        word-spacing: 0.1rem;
-    }
-
 
     /* ALL sections styling for smartphone */
     .content {
@@ -405,6 +417,7 @@ button:hover {
         padding: 130px 30px 30px 30px;
         display: block;
     }
+
     h2 {
         text-align: center;
         font-size: 2.3rem;
