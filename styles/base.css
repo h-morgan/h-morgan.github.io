@@ -60,6 +60,10 @@ section {
     position: relative;
 }
 
+button {
+    width: 100px;
+}
+
 
 /* =====================================================================
     HELPER-CLASSES */
@@ -161,14 +165,14 @@ figcaption {
 }
 
 .p-text{
-    padding-top: 0px;
+    padding-top: 10px;
     text-align: left;
 }
 
 .a-icons {
-    padding-top: 40px;
+    padding-top: 10px;
     max-width: 600px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 
 }
 
@@ -266,7 +270,7 @@ footer {
     width: 100%;
     color: white;
     position: absolute;
-    margin-bottom: -50px;
+    margin-bottom: -100px;
     bottom: 0;
     font-size: 12px;
 
@@ -293,7 +297,8 @@ footer {
     justify-content: space-around;
     margin: auto;
     width: 200px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .icons a {
@@ -309,11 +314,11 @@ footer {
 .contact-form {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 .form-inputs {
-    display: flex;
-    justify-content: space-around;
-    width: 600px;
+    display: block;
+    width: 350px;
     margin: auto;
 }
 
@@ -327,26 +332,15 @@ footer {
     padding: 0 0 20px 0;
 }
 
-.right {
-    display: flex;
-}
-
 label {
     padding-right: 7px;
 }
 
-/* Text input area styling */
-.input {
-    width: 200px;
-    height: 20px;
-    border: 1px solid grey;
-    border-radius: 5px;
-}
 
-#message {
-    width: 200px;
-    height: 100px;
-    border: 1px solid grey;
+/* Text input area styling */
+
+ #message {
+    height: 120px;
     border-radius: 5px;
     resize: none;
 }
@@ -356,12 +350,6 @@ label {
     padding: 50px 0px 20px 0px;
 }
 
-button {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 15px;
-}
 
 button:hover {
     background-color: rgba(156, 155, 155, 0.897);
@@ -430,7 +418,7 @@ button:hover {
     }
 
     /* Contact form styling for smartphone */
-    .contact-form {
+    /* .contact-form {
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -470,7 +458,7 @@ button:hover {
 
     button {
         background-color: rgb(196, 184, 184);
-    }
+    } */
 }
 
 

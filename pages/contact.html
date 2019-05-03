@@ -35,24 +35,24 @@
             </div>
             <br>
             <form id="contact-form" name="input" method="POST" class="contact-form" action="https://formspree.io/dev.haleym@gmail.com">
-                <div class="form-inputs">
+                <div class="form-inputs form-group">
                     <div class="left">
                         <div id="name-row">
                             <label for="name">Name: </label>
-                            <input type="text" name="name" id="name" class="input" placeholder="Enter name" maxlength="20">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter name" maxlength="20">
                         </div>
                         <div id="email-row">
                             <label for="email">Email: </label>
-                            <input type="email" name="email" id="email" class="input" placeholder="Enter email" maxlength="40">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter email" maxlength="40">
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="form-group">
                         <label for="message">Message: </label>
-                        <textarea name="message" id="message" placeholder="Type your message here" maxlength="200"></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="3" placeholder="Type your message here" maxlength="200"></textarea>
                     </div>
                 </div>
                 <div class="sub-btn">
-                    <button id="submit" stype="submit" form="contact-form">Submit</button>
+                    <button class="btn btn-dark" id="submit" stype="submit" form="contact-form">Submit</button>
                 </div>
             </form>
         </div>   
