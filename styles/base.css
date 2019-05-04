@@ -10,6 +10,14 @@ ol, ul {
     padding: 0;
 }
 
+a {
+    color: rgba(19, 56, 88, 0.85);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* =====================================================================
     BASE TAGS STYLING */
 
