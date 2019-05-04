@@ -21,7 +21,7 @@ html, body {
 
 body {
     color: rgba(19, 56, 88, 0.85);
-    background-color: rgba(182, 179, 179, 0.7);
+    background-color: rgba(212, 203, 203, 0.712);
     position: relative;
 }
 
@@ -64,6 +64,13 @@ button {
     width: 100px;
 }
 
+label {
+    padding: 2px 5px 2px 5px;
+    background-color: rgba(19, 56, 88, 0.85);
+    color: white;
+    border-radius: 5px;
+}
+
 
 /* =====================================================================
     HELPER-CLASSES */
@@ -74,6 +81,17 @@ button {
     padding-left: 20px; 
     padding-right: 20px;
     padding-bottom: 70px;
+}
+
+#about {
+    background-image: url(../img/white-brick.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background-image: url(../img/sand-bg.jpg);
+    background-size: cover;
 }
 
 .welcome {
@@ -220,6 +238,69 @@ figcaption {
 
 }
 
+/* Contact me */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.icons a {
+    transform: scale(2);
+    color: white;
+}
+
+.icons a:hover {
+    color: #6e90db;
+}
+
+/* Form area */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.form-inputs {
+    display: block;
+    width: 350px;
+    margin: auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#name-row, #email-row {
+    padding: 0 0 20px 0;
+}
+
+
+
+
+/* Text input area styling */
+
+ #message {
+    height: 120px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.sub-btn {
+    margin: auto;
+    padding: 50px 0px 20px 0px;
+}
+
+
+button:hover {
+    background-color: rgba(156, 155, 155, 0.897);
+}
+
+
 
 
 
@@ -292,69 +373,7 @@ footer {
 
 
 
-/* Contact me */
-.icons {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    width: 200px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
 
-.icons a {
-    transform: scale(2);
-    color: white;
-}
-
-.icons a:hover {
-    color: #6e90db;
-}
-
-/* Form area */
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-.form-inputs {
-    display: block;
-    width: 350px;
-    margin: auto;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-#name-row, #email-row {
-    padding: 0 0 20px 0;
-}
-
-label {
-    padding-right: 7px;
-}
-
-
-/* Text input area styling */
-
- #message {
-    height: 120px;
-    border-radius: 5px;
-    resize: none;
-}
-
-.sub-btn {
-    margin: auto;
-    padding: 50px 0px 20px 0px;
-}
-
-
-button:hover {
-    background-color: rgba(156, 155, 155, 0.897);
-}
 
 
 /* SMARTPHONE SIZING */
