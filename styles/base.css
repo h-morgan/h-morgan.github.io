@@ -21,7 +21,7 @@ html, body {
 
 body {
     color: rgba(19, 56, 88, 0.85);
-    background-color: rgba(158, 155, 155, 0.7);
+    background-color: rgba(182, 179, 179, 0.7);
     position: relative;
 }
 
@@ -172,7 +172,7 @@ figcaption {
 .a-icons {
     padding-top: 10px;
     max-width: 600px;
-    padding-bottom: 0px;
+    padding-bottom: 60px;
 
 }
 
@@ -203,7 +203,7 @@ figcaption {
 
 .p-text {
     margin: auto;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .personal {
@@ -270,7 +270,6 @@ footer {
     width: 100%;
     color: white;
     position: absolute;
-    margin-bottom: -100px;
     bottom: 0;
     font-size: 12px;
 
