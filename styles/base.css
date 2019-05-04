@@ -459,6 +459,11 @@ footer {
         color: salmon;
     }
 
+    #contact-form {
+        max-width: 300px;
+        margin: 0;
+        padding: 0;
+    }
 
 
 
