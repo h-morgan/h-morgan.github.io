@@ -100,6 +100,7 @@ label {
 #contact {
     background-image: url(../img/sand-bg.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .welcome {
@@ -178,6 +179,10 @@ figcaption {
     text-align: center;
     margin-top: 10px;
 }
+
+/* .bg-clear {
+    background-color: rgba(255, 255, 255, 0.6);
+} */
 
 .about-icons {
     display: flex;
@@ -459,10 +464,14 @@ footer {
         color: salmon;
     }
 
-    #contact-form {
+    .form-control {
         max-width: 300px;
-        margin: 0;
+        margin: auto;
         padding: 0;
+    }
+
+    label {
+        margin-left: 25px;
     }
 
 
