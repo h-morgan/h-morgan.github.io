@@ -274,6 +274,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     margin: auto;
+    padding-bottom: 50px;
 }
 .form-inputs {
     display: block;
