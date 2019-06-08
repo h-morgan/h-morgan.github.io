@@ -37,7 +37,7 @@ h1 {
     text-shadow: 2px 2px 5px grey;
     font-size: 4rem;
     font-family: 'Patua One';
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
@@ -84,7 +84,7 @@ label {
     HELPER-CLASSES */
 
 .content-wrapper {
-    max-width: 850px;
+    max-width: 800px;
     margin: auto;
     padding-left: 20px; 
     padding-right: 20px;
@@ -103,7 +103,6 @@ label {
 }
 
 .welcome {
-    text-align: center;
     padding-top: 20vh;
     height: 100vh;
 
@@ -115,8 +114,17 @@ label {
     background-position: center;
 }
 
+.welcome-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+
+
 #subtitle {
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     font-family: 'Patua One';
     text-shadow: 2px 2px 5px grey;
@@ -251,6 +259,10 @@ figcaption {
 }
 
 /* Contact me */
+.h-contact {
+    text-align: center;
+}
+
 .icons {
     display: flex;
     justify-content: space-around;
@@ -326,7 +338,7 @@ button:hover {
     HEADER & NAVBAR */
 
 .nav-wrapper {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -391,7 +403,7 @@ footer {
 
 /* SMARTPHONE SIZING */
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 667px) {
 
     /* About me image styling for smaller screen */
     .about-img {
@@ -412,6 +424,13 @@ footer {
 
     figcaption {
         display: none;
+    }
+
+    .welcome-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: baseline;
     }
 
 }
