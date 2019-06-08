@@ -80,6 +80,7 @@ label {
 }
 
 
+
 /* =====================================================================
     HELPER-CLASSES */
 
@@ -193,9 +194,8 @@ figcaption {
 
 .about-icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    padding-top: 20px
 }
 
 .abt-section {
@@ -257,6 +257,29 @@ figcaption {
     padding-bottom: 20px;
 
 }
+
+/* Projects Section */
+.proj {
+    padding: 20px 0px;
+
+}
+.proj-title {
+    text-align: left;
+    font-size: 25px;
+}
+
+.proj img {
+    border: 10px solid grey;
+    border-radius: 5px;
+}
+
+.btn {
+    min-width: 120px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+
 
 /* Contact me */
 .h-contact {
@@ -338,7 +361,7 @@ button:hover {
     HEADER & NAVBAR */
 
 .nav-wrapper {
-    max-width: 800px;
+    max-width: 750px;
     margin: auto;
 }
 
@@ -429,6 +452,11 @@ footer {
     .welcome-main {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-icons {
+        padding-left: 75px;
     }
 
 }
@@ -493,6 +521,11 @@ footer {
 
     .bitmoji {
         max-width: 175px;
+    }
+
+    .about-icons {
+        padding-left: 55px;
+        padding-top: 10px;
     }
 
 
