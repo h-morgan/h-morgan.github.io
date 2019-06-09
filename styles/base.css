@@ -468,6 +468,13 @@ footer {
         justify-content: space-evenly;
     }
 
+    h1, h2, #subtitle, .welcome div {
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+
+
 }
 
 @media only screen and (max-width: 475px) {
@@ -494,11 +501,11 @@ footer {
 
     h1 {
         font-size: 2.7rem;
-        text-align: left;
+        text-align: center;
     }
 
     h2, #subtitle {
-        text-align: left;
+        text-align: center;
         font-size: 1.3rem;
     }
     
