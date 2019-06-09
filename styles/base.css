@@ -525,6 +525,10 @@ footer {
         color: salmon;
     }
 
+    .welcome {
+        padding-top: 220px;
+    }
+
     .form-control {
         max-width: 300px;
         margin: auto;
