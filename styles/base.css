@@ -29,7 +29,6 @@ html, body {
 
 body {
     color: rgba(19, 56, 88, 0.85);
-    background-color: rgba(212, 203, 203, 0.712);
     position: relative;
 }
 
@@ -92,15 +91,15 @@ label {
 }
 
 #about {
-    background-image: url(../img/white-brick.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(to top, #c0d4f2, #d6d3f0, #e7d4ea, #f2d7e3, #f6dcde);
 }
 
 #contact {
-    background-image: url(../img/sand-bg.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(to top, #c0d4f2, #d6d3f0, #e7d4ea, #f2d7e3, #f6dcde);
+}
+
+#projects {
+    background-image: linear-gradient(to top, #c0d4f2, #d6d3f0, #e7d4ea, #f2d7e3, #f6dcde);
 }
 
 .welcome {
@@ -131,28 +130,7 @@ label {
     text-shadow: 2px 2px 5px grey;
 }
 
-.outer-card {
-    padding-top: 20px;
-}
 
-.card {
-    background-color: rgba(182, 174, 174, 0.7);
-    max-width: 200px;
-    text-align: center;
-    height: 200px;
-    padding: 20px 7px 10px 7px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px grey;
-}
-
-.card:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 20px black;
-}
-
-.card-title {
-    padding-bottom: 25px;
-}
 
 .w-icons {
     font-size: 300%;
@@ -180,7 +158,7 @@ label {
 .about-img figure img {
     width: 200px;
     border-radius: 50%;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 7px black;
 }
 
 figcaption {
@@ -313,7 +291,6 @@ figcaption {
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding-bottom: 50px;
 }
 .form-inputs {
     display: block;
@@ -407,7 +384,7 @@ footer {
     position: absolute;
     bottom: 0;
     font-size: 12px;
-
+    margin-top: 100px;
 }
 
 
