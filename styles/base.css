@@ -169,9 +169,6 @@ figcaption {
     margin-top: 10px;
 }
 
-/* .bg-clear {
-    background-color: rgba(255, 255, 255, 0.6);
-} */
 
 .about-icons {
     display: flex;
@@ -366,7 +363,11 @@ button:hover {
 .nav-link:hover {
     background-color: rgba(228, 135, 135, 0.5);
     color: white !important; /* rgba(19, 56, 88, 0.85); */
-    border-radius: 7px;
+    border-radius: 3px;
+}
+
+.active {
+    color: salmon !important;
 }
 
 
@@ -452,6 +453,15 @@ footer {
         padding: 0;
     }
 
+    .nav-link:hover {
+        background-color: transparent;
+        color: white !important;
+    }
+
+    .active {
+        color: salmon !important;
+    }
+
 
 }
 
@@ -474,7 +484,6 @@ footer {
     .content-wrapper {
         max-width: 400px;
         margin: auto;
-        padding: 120px 30px 30px 30px;
     }
 
     h1 {
@@ -491,18 +500,6 @@ footer {
         font-family: 'Hind', sans-serif;
         font-size: 1.2rem;
         text-align: left;
-    }
-/* 
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-     */
-
-    .nav-link-active {
-        border: none;
-        color: salmon;
     }
 
     .welcome {
