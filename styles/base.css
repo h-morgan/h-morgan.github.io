@@ -455,7 +455,7 @@ footer {
 
     .nav-link:hover {
         background-color: transparent;
-        color: grey!important;
+        color: white!important;
     }
 
     .active {
@@ -503,7 +503,7 @@ footer {
     }
 
     .welcome {
-        padding-top: 220px;
+        padding-top: 120px;
     }
 
     .form-control {
