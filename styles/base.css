@@ -67,9 +67,7 @@ section {
     position: relative;
 }
 
-button {
-    width: 100px;
-}
+
 
 label {
     padding: 2px 5px 2px 5px;
@@ -327,12 +325,14 @@ figcaption {
 .sub-btn {
     margin: auto;
     padding: 50px 0px 20px 0px;
+    width: 100px;
 }
 
 
 button:hover {
     background-color: rgba(156, 155, 155, 0.897);
 }
+
 
 
 
@@ -351,17 +351,13 @@ button:hover {
     margin: auto;
 }
 
-.nav-link-active {
-    border-top: 2px solid white; 
-}
-
 .navigation-links {
     width: 100%;
     background-color: rgba(19, 56, 88, 0.85);
     box-shadow: 0 2px 5px black;
     z-index: 1;
     position: fixed;
-}
+} 
 
 .nav-link {
     color: white;
@@ -369,7 +365,7 @@ button:hover {
 
 .nav-link:hover {
     background-color: rgba(228, 135, 135, 0.5);
-    color: white; /* rgba(19, 56, 88, 0.85); */
+    color: white !important; /* rgba(19, 56, 88, 0.85); */
     border-radius: 7px;
 }
 
@@ -496,11 +492,13 @@ footer {
         font-size: 1.2rem;
         text-align: left;
     }
-
+/* 
     nav {
         display: flex;
         flex-direction: column;
     }
+
+     */
 
     .nav-link-active {
         border: none;
