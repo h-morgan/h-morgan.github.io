@@ -455,7 +455,7 @@ footer {
 
     .nav-link:hover {
         background-color: transparent;
-        color: white !important;
+        color: grey!important;
     }
 
     .active {
