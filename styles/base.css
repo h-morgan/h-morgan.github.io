@@ -348,16 +348,16 @@ button:hover {
     margin: auto;
 }
 
-.navigation-links {
+.navigation-links, .navbar {
     width: 100%;
-    background-color: rgba(19, 56, 88, 0.85);
+    background-color: rgba(19, 56, 88, 0.85) !important;
     box-shadow: 0 2px 5px black;
     z-index: 1;
     position: fixed;
 } 
 
 .nav-link {
-    color: white;
+    color: white !important;
 }
 
 .nav-link:hover {
