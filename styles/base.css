@@ -247,8 +247,6 @@ figcaption {
 }
 
 .proj img {
-    border: 10px solid grey;
-    border-radius: 5px;
     width: 100%;
     max-width: 500px;
 }
@@ -460,6 +458,16 @@ footer {
 
     .active {
         color: salmon !important;
+    }
+
+    .proj-title {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .proj img {
+        display: block;
+        margin: auto;
     }
 
 
