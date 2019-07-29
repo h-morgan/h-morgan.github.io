@@ -177,12 +177,14 @@ figcaption {
 }
 
 .abt-section {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 5px 0px 10px;
 }
 
 .p-text{
     padding-top: 10px;
     text-align: left;
+    margin: auto;
+    max-width: 600px;
 }
 
 .a-icons {
@@ -218,9 +220,12 @@ figcaption {
     color: #EA4F33;
 }
 
-.p-text {
-    margin: auto;
-    max-width: 500px;
+.inline-link {
+    font-weight: 700;
+}
+
+.inline-link:hover {    
+    color: salmon;
 }
 
 .personal {
@@ -230,7 +235,7 @@ figcaption {
 
 .subtitle-text {
     border-top: 2px solid rgba(19, 56, 88, 0.85);
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     padding-bottom: 20px;
 
