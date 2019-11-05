@@ -1,4 +1,4 @@
 # h-morgan.github.io
 Personal website.
 
-under construction
+Updated semi-regularly.
