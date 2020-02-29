@@ -475,6 +475,9 @@ footer {
         margin: auto;
     }
 
+    .test {
+        font-size: .7rem;
+    }
 
 }
 
@@ -533,9 +536,9 @@ footer {
         max-width: 175px;
     }
 
-    .about-icons {
-        padding-left: 55px;
-        padding-top: 10px;
+    .test {
+        font-size: 0.5rem;
+        display:flex;
     }
 
 
