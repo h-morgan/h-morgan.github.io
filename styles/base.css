@@ -262,7 +262,10 @@ figcaption {
     margin-bottom: 40px;
 }
 
-
+.abt-list {
+    list-style: disc;
+    padding: 0px 5px 0px 50px;
+}
 
 
 
