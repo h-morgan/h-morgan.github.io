@@ -89,7 +89,6 @@ label {
 }
 
 #about {
-    background-image: linear-gradient(to top, #c0d4f2, #d6d3f0, #e7d4ea, #f2d7e3, #f6dcde);
     min-height: 100%; 
 }
 
@@ -102,6 +101,11 @@ label {
 
 #projects {
     background-image: linear-gradient(to top, #c0d4f2, #d6d3f0, #e7d4ea, #f2d7e3, #f6dcde);
+    min-height: 100%; 
+}
+
+
+#projects-no-bg {
     min-height: 100%; 
 }
 

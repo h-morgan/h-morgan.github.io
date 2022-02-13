@@ -53,29 +53,38 @@
     </header>
 
 <!-- Projects section -->
-<section id="projects" class="top">
+<section id="projects-no-bg" class="top">
         <div class="content-wrapper container-fluid">
             <h1>Projects</h1>
             <!-- TODO : Add projects worked on</p> -->
+            <!-- use smartmockups website here to generate image https://smartmockups.com/mockup/Wu8A4epzz -->
+            <div class="proj">
+                <h2 class="proj-title">hntTax - Cryptocurrency Tax Firm</h2>
+                <img src="../img/projects/hnttax_mock.jpg" alt="hntTax Helium Miner Tax firm">
+                <p><strong>Description: </strong>Developed software that calculates a person's tax basis generated from mining cryptocurrency. Users fill out forms on our hntTax website, and provide their wallet address and crypto-related expense information. Our backend tools then query the blockchain for the given wallet, compute income, and generate PDF and TXF format tax forms needed to report related income and expenes.</p>
+                <p><strong>Technology: </strong>Python, AWS, Postgres, Wordpress</p>
+                <div class="proj-buttons">
+                    <a class="btn btn-dark" href="https://hnttax.us" target="_blank">View Live</a>
+                </div>
+            </div>
+
+            <div class="proj">
+                <h2 class="proj-title">Value Investment Research Tool</h2>
+                <img src="../img/projects/invest_mock.jpg" alt="Desktop showing investment graphs">
+                <p><strong>Description: </strong>Developed cli tools to run value investment calculations and fundamental analyses on US publicly traded stocks to help inform investment decisions. Designed, developed, and maintain a Postgres database of historic fundamental stock data to use in analysis. User inputs a stock ticker, and tool runs value investment calculations using fundamental data from the database. Outputs a stock sticker ("value") price, and graphs of key data.</p>
+                <p><strong>Technology: </strong>Python, Postgres</p>
+                <div class="proj-buttons">
+                    <a class="btn btn-dark" href="https://github.com/h-morgan/benthos-cli" target="_blank">View Source</a>
+                </div>
+            </div>
+
             <div class="proj">
                 <h2 class="proj-title">Macronutrient Calculator</h2>
                 <img src="../img/projects/macrocalc.png" alt="Garrett Miller Fitness Macronutrient Calculator">
                 <p><strong>Description: </strong>Developed a macronutrient calculator for a personal training/fitness comany. The calculator takes in user information regarding height, weight, age, body type, activity level, and fitness goals, and calculates a recommended daily calorie and macronutrient breakdown.</p>
                 <p><strong>Technology: </strong>Python, JavaScript, HTML, CSS, Flask</p>
                 <div class="proj-buttons">
-                    <a class="btn btn-dark disabled" href="#">Coming Soon</a>
                         <a class="btn btn-dark" href="https://github.com/h-morgan/macro-calculator" target="_blank">View Source</a>
-                </div>
-            </div>
-
-            <div class="proj">
-                <h2 class="proj-title">Flashcards App</h2>
-                <img src="../img/projects/flashcards.png" alt="Flashcards Application Project">
-                <p><strong>Description: </strong>Developed a flashcards web application to help myself study for exams. The "draw card" button randomly generates a card from a database in the backend. Hover over the card to flip to the answer on the back.</p>
-                <p><strong>Technology: </strong>React, CSS, JSON, Firebase</p>
-                <div class="proj-buttons">
-                        <a class="btn btn-dark" href="https://flashcards.haleyemorgan.com" target="_blank">View Live</a>
-                        <a class="btn btn-dark" href="https://github.com/h-morgan/flashcards-app" target="_blank">View Source</a>
                 </div>
             </div>
 
@@ -87,6 +96,17 @@
                 <div class="proj-buttons">
                         <a class="btn btn-dark" href="https://www.haleyemorgan.com" target="_blank">View Live</a>
                         <a class="btn btn-dark" href="https://github.com/h-morgan/h-morgan.github.io" target="_blank">View Source</a>
+                </div>
+            </div>
+
+            <div class="proj">
+                <h2 class="proj-title">Flashcards App</h2>
+                <img src="../img/projects/flashcards.png" alt="Flashcards Application Project">
+                <p><strong>Description: </strong>Developed a flashcards web application to help myself study for exams. The "draw card" button randomly generates a card from a database in the backend. Hover over the card to flip to the answer on the back.</p>
+                <p><strong>Technology: </strong>React, CSS, JSON, Firebase</p>
+                <div class="proj-buttons">
+                        <a class="btn btn-dark" href="https://flashcards.haleyemorgan.com" target="_blank">View Live</a>
+                        <a class="btn btn-dark" href="https://github.com/h-morgan/flashcards-app" target="_blank">View Source</a>
                 </div>
             </div>
 
