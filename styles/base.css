@@ -165,7 +165,7 @@ label {
 .about-img figure img {
     width: 200px;
     border-radius: 50%;
-    box-shadow: 2px 2px 7px black;
+    box-shadow: 0px 2px 6px rgb(111, 106, 106);
 }
 
 figcaption {
