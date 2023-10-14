@@ -3,4 +3,4 @@ Personal website.
 
 Updated semi-regularly.  
 
-Hosted at [https://h-morgan.github.io/](https://h-morgan.github.io/))
+Hosted at [https://h-morgan.github.io/](https://h-morgan.github.io/)
