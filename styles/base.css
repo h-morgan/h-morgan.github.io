@@ -370,6 +370,11 @@ button:hover {
     color: white !important;
 }
 
+.nav-link-hide {
+    color: white !important;
+    display: None;
+}
+
 .nav-link:hover {
     background-color: rgba(228, 135, 135, 0.5);
     color: white !important; /* rgba(19, 56, 88, 0.85); */
